@@ -1,0 +1,114 @@
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    font-family:Arial,sans-serif;
+    background-image:url('/images/clouds.jpeg');
+    background-size: cover;
+    background-position: center;
+   
+}
+
+#main{
+    background-image:url('/images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+#about{
+    background-image: url('');
+}
+
+/* NAVBAR  */
+#search{
+    background: white;
+
+}
+.glass-card{
+    background:rgba(255,255,255,.10);
+    backdrop-filter:blur(18px);
+    /* background: white; */
+    border:1px solid rgba(255,255,255,.15);
+    border-radius:25px;
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+}
+
+.weather-card{
+    transition:.3s;
+}
+
+.weather-card:hover{
+    transform:translateY(-6px);
+}
+
+
+
+.form-control{
+
+    background:transparent !important;
+    color:#000000 !important;
+}
+
+.form-control::placeholder{
+    color:#2e2e2e;
+}
+
+.form-control:focus{
+    box-shadow:none;
+}
+
+.btn-search{
+    background:linear-gradient(135deg,#1607f2,#00b6fe);
+    color:white;
+    border:none;
+    border-radius:50px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-search:hover{
+    color:white;
+    transform:translateY(-2px);
+    box-shadow:0 10px 20px rgba(0,0,0,.25);
+}
+
+.info-box{
+    background:rgba(255,255,255,.08);
+    border-radius:20px;
+    text-align:center;
+    padding:25px 15px;
+    height:100%;
+    transition:.3s;
+}
+
+.info-box:hover{
+    background:rgba(255,255,255,.16);
+    transform:translateY(-5px);
+}
+
+
+.info-box small{
+    color:#d1d5db;
+    display:block;
+    margin-bottom:8px;
+}
+
+.info-box h5{
+    color:white;
+    margin:0;
+    font-weight:bold;
+}
+
+footer{
+    margin-top:auto;
+}
+
+@media(max-width:768px){
+    .display-1{
+        font-size:4rem;
+    }
+
+}

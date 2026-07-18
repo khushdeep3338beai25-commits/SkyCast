@@ -1,0 +1,137 @@
+<style>
+
+    /* **** */
+
+    .about-section{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 500px;
+}
+
+.about-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.about-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: -1;
+}
+
+.about-content{
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding: 50px;
+}
+
+
+/* ** */
+
+    .about-card{
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(15px);
+    border-radius:20px;
+    border:1px solid rgba(255,255,255,0.2);
+    box-shadow:0 8px 25px rgba(0,0,0,.3);
+}
+
+.about-text{
+    color:#f1f1f1;
+    text-align:center;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.feature-box{
+    background:rgba(0, 74, 200, 0.15);
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    color:white;
+    height:100%;
+    transition:.3s;
+}
+
+.feature-box h3{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.feature-box h5{
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.feature-box p{
+    color:#d8d8d8;
+    font-size:15px;
+}
+
+.feature-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 20px rgba(0, 204, 255, 0.3);
+}
+</style>
+
+<section class="container about my-5">
+    <!-- ***** -->
+
+    <video autoplay muted loop playsinline class="about-video">
+        <source src="/images/about.mp4" type="video/mp4">
+    </video>
+
+    <div class="about-overlay"></div>
+
+    <!-- ** -->
+
+    <div class="glass-card about-card about-content p-5">
+
+        <h2 class="text-center text-white mb-4">🌤 About SkyCast </h2>
+
+        <p class="about-text">
+            SkyCast  is a simple and modern weather application that helps you
+            stay updated with real-time weather information from anywhere in the
+            world. Search any city to view its current temperature, humidity,
+            wind speed, pressure, sunrise time, and more.
+        </p>
+
+        <div class="row mt-5">
+
+            <div class="col-md-4 mb-3">
+                <div class="feature-box">
+                    <h3>🌡</h3>
+                    <h5>Live Temperature</h5>
+                    <p>Get the latest temperature in Celsius instantly.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="feature-box">
+                    <h3>💨</h3>
+                    <h5>Weather Details</h5>
+                    <p>Check humidity, wind speed, pressure and more.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <div class="feature-box">
+                    <h3>🌍</h3>
+                    <h5>Worldwide Search</h5>
+                    <p>Search weather information for cities around the globe.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
