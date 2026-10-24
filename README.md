@@ -2,16 +2,6 @@
 
 SkyCast is a modern weather application built with Node.js, Express, EJS, HTML, CSS, and JavaScript.
 
-## Features
-
-- 🌍 Search weather by city
-- 🌡️ Temperature
-- 💧 Humidity
-- 🌬️ Wind Speed
-- 📈 Pressure
-- 🌅 Sunrise Time
-- ☁️ Weather Description
-- 📱 Responsive Design
 
 ## Technologies Used
 
