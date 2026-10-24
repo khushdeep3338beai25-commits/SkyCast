@@ -19,3 +19,37 @@ SkyCast is a modern, responsive weather application built with Node.js, Express.
 ☁️ Weather Description — Get a brief description of current conditions.
 
 📱 Responsive Design — Enjoy a smooth experience across desktop and mobile devices.
+
+🛠️ Tech Stack
+
+Technology
+
+Purpose
+
+Node.js
+
+JavaScript runtime
+
+Express.js
+
+Backend server and routing
+
+EJS
+
+Dynamic server-side page rendering
+
+HTML5
+
+Web page structure
+
+CSS3
+
+Styling and responsive layouts
+
+JavaScript
+
+Application logic and interactivity
+
+OpenWeather API
+
+Weather data retrieval
