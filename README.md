@@ -3,15 +3,6 @@
 SkyCast is a modern weather application built with Node.js, Express, EJS, HTML, CSS, and JavaScript.
 
 
-## Technologies Used
-
-- Node.js
-- Express.js
-- EJS
-- HTML5
-- CSS3
-- JavaScript
-- OpenWeather API
 
 ## Installation
 
